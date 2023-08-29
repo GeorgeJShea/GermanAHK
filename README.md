@@ -3,14 +3,22 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-
-<!s::
-Send, ß
+<!f::
+Send, Entschuldigung
 
 return
 
 <!e::
-Send, Entschuldigung
+Send, é
+
+return
+
+<!h::
+Send, herzlichen Glückwunsch
+return
+
+<!s::
+Send, ß
 
 return
 
@@ -26,6 +34,13 @@ return
 
 <!o::
 Send, ö
+
+return
+
+
+
+<!+4::
+Send, €
 
 return
 
