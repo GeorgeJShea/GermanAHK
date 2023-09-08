@@ -8,6 +8,14 @@ Send, Entschuldigung
 
 return
 
+
+
+<!+f::
+Send, Entschuldigen 
+
+return
+
+
 <!e::
 Send, é
 
