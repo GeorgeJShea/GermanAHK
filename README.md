@@ -3,6 +3,16 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+;Quickly Discover the meaning of unknown words 
+<!g::
+send, ^c
+sleep 100
+Run, http://www.google.com/search?q=%clipboard%
+
+return
+
+
+
 <!f::
 Send, Entschuldigung
 
