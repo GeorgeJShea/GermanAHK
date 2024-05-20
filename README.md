@@ -8,8 +8,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 send, ^c
 sleep 100
 Run, http://www.google.com/search?q=%clipboard%
-
 return
+
 
 
 
@@ -17,8 +17,6 @@ return
 Send, Entschuldigung
 
 return
-
-
 
 <!+f::
 Send, Entschuldigen 
@@ -50,12 +48,25 @@ Send, ä
 
 return
 
+<!z::
+Send, å
+
+return
+
 <!o::
 Send, ö
 
 return
 
+<!n::
+Send, ñ
 
+return
+
+<!+n::
+Send, Ñ
+
+return
 
 <!+4::
 Send, €
@@ -75,5 +86,11 @@ return
 
 <!+a::
 Send, Ä
+
+return
+
+
+<!+z::
+Send, Å
 
 return
